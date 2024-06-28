@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#044C7C"
+        android:gravity="center"
+        android:text="Bastain"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textColorLink="#044C7C"
+        android:textSize="40sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#044C7C"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnStory3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/bastain" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="ifContentScrolls"
+                android:scrollHorizontally="false"
+                android:text="The grandson of an antique dealer and a beggar princess were married.  The contract was valid for two years and was for the benefit of each.  He was a commissioned naval officer and a millionaire.  The grandson of an antique dealer who was despised for his lowly pedigree despite his brilliant golden success.  Bastian Klausitz needed stepping stones to rise in the ranks and take revenge.  A fallen aristocrat with nothing left but past glory.  Even with her royal lineage, she made a living from her day to day job.  Odette von Dyssen needed money to start a new life.  It was a successful deal.  That was, until unexpected losses occurred.  “You ruined what’s most precious to me, so it’s a fair deal if you lose what’s most precious to you. Don’t you think so?”  Bastian decided to hold her accountable for the enormous loss.  Hate and resentment, unresolved feelings, even the name of this abominable woman.  All for the sake of a complete end, where everything burned white and disappeared." />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Back"
+            app:cornerRadius="12dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

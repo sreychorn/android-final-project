@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReadStory1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#044C7C"
+        android:gravity="center"
+        android:text="My Lovely Wife"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textColorLink="#044C7C"
+        android:textSize="40sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardUseCompatPadding="true"
+        app:contentPadding="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#044C7C"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btnStory4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/story4" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:overScrollMode="ifContentScrolls"
+                android:scrollHorizontally="true"
+                android:text="Sang Zhi is just a 13-year-old teen when she first meets Duan Jiaxu, her big brother’s best friend. At the first meet, she is stunned by the handsome face of his and asks for a favor. A favor after favor turns into instances where Sang Zhi has the experience of her first crush.  However, not only is Duan Jiaxu her brother’s best friend but also older than her. With the knowledge that he would never see her romantically, Sang Zhi keeps her love confession to herself due to its unrequited nature.  Where Sang Zhi might seem a bit stiff and unrelenting at the start of the drama, the book shows a lot more funny streaks in her behavior.  Even with the addition of more interactions between the Sang siblings, they hold the same relatable universal love-hate dynamic in the books which is just as fun.  As I have read the translated version of the book, reading the Chinese tonality and phrases is always new but brings a 3D effect to the character that I, as the reader, inject." />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnBack4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Back"
+            app:cornerRadius="12dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

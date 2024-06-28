@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#044C7C"
+            android:gravity="center"
+            android:text="My Stories "
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textColorLink="#044C7C"
+            android:textSize="40sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/bastain"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#044C7C"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/btnStory3"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/bastain"
+                            android:contentDescription="todo"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/txtStory1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#044C7C"
+                            android:text="Bastian"
+                            android:textAlignment="center"
+                            android:textColor="#FDF6FE"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/love"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#044C7C"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/btnStory3"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/story2"
+                            android:contentDescription="todo"/>
+
+                        <TextView
+                            android:id="@+id/txtStory2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#044C7C"
+                            android:text="Hidden Love"
+                            android:textAlignment="center"
+                            android:textColor="#FDF6FE"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/fish"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#044C7C"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/btnStory3"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/story3"
+                            android:contentDescription="todo"/>
+
+                        <TextView
+                            android:id="@+id/txtStory3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#044C7C"
+                            android:text="The Marriage with the Notoriously Rich Boss"
+                            android:textAlignment="center"
+                            android:textColor="#FDF6FE"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="12dp"
+                    app:cardUseCompatPadding="true"
+                    app:contentPadding="12dp">
+
+                    <LinearLayout
+                        android:id="@+id/wife"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#044C7C"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/btnStory4"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            app:srcCompat="@drawable/story4"
+                            android:contentDescription="todo"/>
+
+                        <TextView
+                            android:id="@+id/txtStory4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#044C7C"
+                            android:text="My Lovely Wife"
+                            android:textAlignment="center"
+                            android:textColor="#FDF6FE"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
